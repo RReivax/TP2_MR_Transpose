@@ -22,7 +22,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class Transpose {
 
     /***
-     * Custom class to hold (index, value), implanting WritableComparable
+     * Custom class to hold (index, value), implementing WritableComparable
      */
     public static class LongTextWritable  implements WritableComparable<LongTextWritable> {
         private LongWritable index;
